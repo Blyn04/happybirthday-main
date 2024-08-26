@@ -207,7 +207,12 @@ body {
   font-size: 3em;
   text-transform: uppercase;
   word-spacing: normal;
-  word-spacing: 10%;
+  word-spacing: 100%;
+}
+
+h3 {
+  word-spacing: normal;
+  word-spacing: 100%;
 }
 
 .wish h5 {
