@@ -206,6 +206,7 @@ body {
 .wish-hbd {
   font-size: 3em;
   text-transform: uppercase;
+  word-spacing: normal;
 }
 
 .wish h5 {
