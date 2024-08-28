@@ -154,11 +154,11 @@ const animationTimeline = () => {
     )
     .to(
         ".idea-5 span",
-        0.7, {
+        0.6, {
             rotation: 90,
             x: 8,
         },
-        "+=1.1"
+        "+=1.4"
     )
     .to(
         ".idea-5",
