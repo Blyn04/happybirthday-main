@@ -31,7 +31,7 @@ const animationTimeline = () => {
 
     hbd.innerHTML = `<span>${hbd.innerHTML
         .split("")
-        .join("</span><span>")}</span>`;
+        .join("</span> <span>")}</span>`;
 
     const ideaTextTrans = {
         opacity: 0,
@@ -61,6 +61,11 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
     })
+    .from(".twos", 0.4, {
+        opacity: 0,
+        y: 10
+    })
+
     .to(".one",
         0.7,
         {
@@ -75,6 +80,14 @@ const animationTimeline = () => {
             y: 10
         },
     "-=1")
+    .to(".twos",
+        0.7,
+        {
+            opacity: 0,
+            y: 10
+        },
+    "-=1")
+
     .from(".three", 0.7, {
         opacity: 0,
         y: 10
@@ -99,12 +112,12 @@ const animationTimeline = () => {
         1.5, {
             visibility: "visible",
         },
-        0.05
+        0.02
     )
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=4")
+    "+=1")
     .to(
         ".four",
         0.5, {
@@ -126,10 +139,10 @@ const animationTimeline = () => {
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=2.5")
+    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.2")
     .from(
         ".idea-5",
-        0.7, {
+        0.8, {
             rotationX: 15,
             rotationZ: -10,
             skewY: "-5deg",
