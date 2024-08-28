@@ -154,7 +154,7 @@ const animationTimeline = () => {
     )
     .to(
         ".idea-5 span",
-        0.4, {
+        0.7, {
             rotation: 90,
             x: 8,
         },
