@@ -142,7 +142,7 @@ const animationTimeline = () => {
     .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.2")
     .from(
         ".idea-5",
-        0.8, {
+        0.7, {
             rotationX: 15,
             rotationZ: -10,
             skewY: "-5deg",
@@ -150,7 +150,7 @@ const animationTimeline = () => {
             z: 10,
             opacity: 0,
         },
-        "+=1.5"
+        "+=1.3"
     )
     .to(
         ".idea-5 span",
@@ -158,7 +158,7 @@ const animationTimeline = () => {
             rotation: 90,
             x: 8,
         },
-        "+=1.4"
+        "+=1.3"
     )
     .to(
         ".idea-5",
