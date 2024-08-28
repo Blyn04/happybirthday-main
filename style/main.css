@@ -37,7 +37,7 @@ body {
   font-weight: lighter;
 }
 
-.twos {
+.twoss {
   font-size: 1.2rem;
   font-weight: lighter;
 }
@@ -264,7 +264,7 @@ body {
   }
 
   .text-box .fake-btn {
-    bottom: -50px;
+    bottom: -70px;
     right: 5px;
   }
 
