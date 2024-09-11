@@ -114,11 +114,12 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  margin-left: -10px;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
-  width: 80px;
+  top: -33%;
+  width: 56px;
+  transform: rotate(-40deg);
 }
 
 .baloons img {
@@ -232,7 +233,7 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 50%;
   }
 }
 
@@ -250,7 +251,8 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: -10%;
+    top: -20%;
   }
 }
 
